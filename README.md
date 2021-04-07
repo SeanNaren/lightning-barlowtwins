@@ -6,8 +6,7 @@
 
 This is a [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning) port of the [Barlow Twins implementation](https://github.com/facebookresearch/barlowtwins) release by Facebook Research.
 
-Hyper-parameters have been set up based on the README found in the PyTorch Barlow Twins implementation.
-
+Hyper-parameters have been set based on commands in the PyTorch Barlow Twins implementation README.
 
 ### Usage
 ```
@@ -24,7 +23,6 @@ Have a look at the [PyTorch Lightning Trainer](https://pytorch-lightning.readthe
 ```
 python train.py --gpus 8 --batch_size 256
 ```
-
 
 ### Linear Evaluation
 
